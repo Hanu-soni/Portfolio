@@ -1,34 +1,35 @@
 const data = [
-    {
-      id: 1,
-      question: "What do you need to start working on my project?",
-      answer: "It mostly depends on the type of project. But in general, you need a fair idea of what you want, then we can take it from there."
-    },
-    {
-      id: 2,
-      question: "How long will my project take to complete?",
-      answer: "This depends on the complexity of the project, your available, and your payment. Once you have this sorted out, I will give you a completion date."
-    },
-    {
-      id: 5,
-      question: "Is hosting and domain registration inclusive in your pricing?",
-      answer: "No! Hosting and domain is taken care of seperately. You can pay for it or take care of it on your own if you know how to."
-    },
-    {
-      id: 4,
-      question: "How much do you charge for an average website or app?",
-      answer: "Once again, this depends. But my prices are affordable so you're good."
-    },
-    {
-      id: 3,
-      question: "What's your payment plan?",
-      answer: "Payment is divided into 3. An initial 30% upfront payment to get me started once all the details of the projec is set, 40% once the project is completed, and 30% once the project is delivered."
-    },
-    {
-      id: 6,
-      question: "What if the project doesn't turn out good?",
-      answer: "You will be a part of the process from the start. You will know how the whole project is going until the end. And I will make sure to give you the best."
-    }
-  ]
+  {
+    id: 1,
+    question: "What are the key requirements for my project?",
+    answer: "It mainly depends on the specific project's needs. Having a clear understanding of your project requirements is the first step to get started."
+  },
+  {
+    id: 2,
+    question: "Can you estimate the project timeline?",
+    answer: "The project duration varies based on its complexity, your availability, and payment terms. Once we define these aspects, I can provide you with a project completion estimate."
+  },
+  {
+    id: 3,
+    question: "Does your pricing include hosting and domain registration?",
+    answer: "No, hosting and domain registration are separate expenses. You can either handle them yourself or opt for assistance, depending on your preference."
+  },
+  {
+    id: 4,
+    question: "What are your rates for an average website or app?",
+    answer: "Pricing varies depending on the project's scope and requirements. Rest assured, my rates are competitive and budget-friendly."
+  },
+  {
+    id: 5,
+    question: "Could you explain your payment plan in detail?",
+    answer: "Sure, the payment structure consists of three parts: an initial 30% upfront payment to kickstart the project, followed by 40% upon project completion, and the remaining 30% upon successful project delivery."
+  },
+  {
+    id: 6,
+    question: "What if I'm not satisfied with the project's outcome?",
+    answer: "Your involvement in the project is ongoing, ensuring you're informed about the progress at every stage. My commitment is to deliver the best possible results."
+  }
+]
+
 
   export default data

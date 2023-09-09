@@ -59,7 +59,7 @@ const App = () => {
       <Services />
       <Portfolio />
       {/* <Testimonials /> */}
-      <FAQs />
+      <FAQs  className="w3-container w3-center w3-animate-opacity"/>
       <Contact />
       <Footer />
 
@@ -69,3 +69,7 @@ const App = () => {
 };
 
 export default App;
+
+
+
+

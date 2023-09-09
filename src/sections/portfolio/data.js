@@ -1,96 +1,59 @@
-import Image1 from '../../assets/project1.jpg'
-import Image2 from '../../assets/project2.jpg'
-import Image3 from '../../assets/project3.jpg'
-import Image4 from '../../assets/project4.jpg'
-import Image5 from '../../assets/project5.jpg'
-import Image6 from '../../assets/project6.jpg'
-import Image7 from '../../assets/project7.jpg'
-import Image8 from '../../assets/project8.jpg'
-import Image9 from '../../assets/project9.jpg'
+import Image1 from '../../assets/Quiz_builder.png';
+import Image2 from '../../assets/Red_Bus.jpg';
+import Image3 from '../../assets/Youtube-Subscribers.jpg';
+import Image4 from '../../assets/zomato.png';
+import Image5 from '../../assets/Resume_builder.png';
+
 
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'Front-end',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: 'Quiz_Builder',
+        desc: "This is a platform were user can go and make their quiz and student can play quiz",
+        demo: 'https://github.com/Hanu-soni/Quiz-Builder.git',
+        github: 'https://github.com/Hanu-soni/Quiz-Builder.git'
     },
     {
         id: 2,
-        category: 'frontend',
+        category: 'Backend',
         image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Red_Bus",
+        desc: "This Project is having 3 api request for knowing all the trips and getting bus details",
+        demo: 'https://github.com/Hanu-soni/Red_Bus_Backend',
+        github: 'https://gitfrontendhub.com/Hanu-soni/Red_Bus_Backend'
     },
     {
         id: 3,
-        category: 'frontend',
+        category: 'Backend',
         image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Youtube-Subscribers",
+        desc: "THIS IS A ALMABETTER VERIFIED PROJECT | Technology used- Mongodb, ExpressJs, NodeJs | Atlas | Postman",      
+        demo: 'https://github.com/Hanu-soni/Youtube_subscribers.git',
+        github: 'https://github.com/Hanu-soni/Youtube_subscribers.git'
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'Full-Stack',
         image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Zomato",
+        desc: "This is an application where user can login or signup and order food from their favourite restaurent. Technology-React|Express|Mongo|Node",
+        //need to update ZOMATO
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'http://egatortutorials.com'
     },
     {
         id: 5,
-        category: 'uiux',
+        category: 'Front-end',
         image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 6,
-        category: 'frontend',
-        image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 7,
-        category: 'frontend',
-        image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 8,
-        category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 9,
-        category: 'frontend',
-        image: Image9,
-        title: "Project Title Nine (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Resume-Builder)",
+        desc:'Resume builder is used to build resume for user.New things -Login-Verification| Form-Validation |Download pdf |LocalStorage |Redux',
+        demo: 'https://hanu-soni.github.io/Resume_Builder3/',
+        github: 'https://github.com/Hanu-soni/Resume_Builder3.git'
     }
+
 ]
 
 
-export default data
+export default data;
