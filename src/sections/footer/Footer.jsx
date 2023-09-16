@@ -1,25 +1,29 @@
+import { FaPhone } from 'react-icons/fa'
 import {links, socials} from './data'
 import './footer.css'
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="container footer__container">
-        <ul className='nav__menu'>
-          {
-            links.map(fLink => <li key={fLink.id}><a href={fLink.link}>{fLink.title}</a></li>)
-          }
-        </ul>
-        <div className="footer__socials">
-          {
-            socials.map(social => <a key={social.id} href={social.link} target="_blank" rel="noopener noreferrer">{social.icon}</a>)
-          }
+  
+    <footer className='bg-dark text-primary py-5'>
+    <div className='container'>
+        <div className='text-center mb-4'>
+            <h2 className='fs-2' style={{color:"blue"}}>ENDING</h2>
         </div>
-      </div>
-      <div className="footer__copyright">
-        <small>2022 EGATOR TUTORIALS &copy; All Rights Reserved</small>
-      </div>
-    </footer>
+        <div className='text-center fs-6 fw-bolder'>
+            <p>
+                Thank you for visiting my portfolio! I'm passionate about creating unique and engaging digital experiences. Whether it's web development, design, or any other creative project, I'm always eager to take on new challenges. If you'd like to collaborate, have any questions, or simply want to say hello, please feel free to reach out. Let's connect and bring your ideas to life. Together, we can make the digital world a more vibrant and user-friendly place. Cheers to creativity and innovation!
+            </p>
+        </div>
+        <div className='mt-4 text-center fs-5 fw-bolder'>
+            <p> +91 9957711685 &nbsp; <FaPhone /></p>
+            <p>Email: pankajsoni93444@gmail.com</p>
+        </div>
+    </div>
+</footer>
+
+
+     
   )
 }
 

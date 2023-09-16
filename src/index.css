@@ -9,11 +9,13 @@
 }
 
 :root {
-    --primary-hue: 270;
-    --black-lightness: 15%;
-    --dark-lightness: 44%;
-    --light-lightness: 94%;
-    --white-lightness: 100%;
+    --primary-hue: 210; /* Updated primary hue to a bluish color */
+    --black-lightness: 30%; /* Darken the black */
+    --dark-lightness: 64%; /* Darken the dark color */
+    --light-lightness: 86%; /* Lighten the light color */
+    --white-lightness: 96%; /* Lighten the white */
+
+    /* Calculate new colors based on updated variables */
     --color-primary: hsl(var(--primary-hue), 89%, 41%);
     --color-white: hsl(0, 5%, var(--white-lightness));
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
@@ -33,6 +35,7 @@
     --transition: all 500ms ease;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -40,8 +43,13 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    font-size: 0.9rem;
+    font-size: 16px; /* 16px is equivalent to 1rem for better accessibility */
+    margin: 0; /* Remove default margin to ensure content reaches the edges */
+    padding: 0; /* Remove default padding to ensure content starts from the edge */
+    background-color: #f7f7f7; /* Set a background color for better contrast */
+    color: #4612ed; /* Set a default text color */
 }
+
 
 
 
@@ -58,10 +66,10 @@ main.color-1 {
     --primary-hue: 270;
 }
 main.color-2 {
-    --primary-hue: 110;
+    --primary-hue: 130;
 }
 main.color-3 {
-    --primary-hue: 240;
+    --primary-hue: 260;
 }
 main.color-4 {
     --primary-hue: 325;
@@ -134,7 +142,7 @@ a {
 /* GENERAL HEADING STYLES */
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
-    color: var(--color-black);
+    color: black;
 }
 
 h1 {
@@ -170,24 +178,27 @@ img {
 
 /* GENERAL BUTTON STYLES */
 .btn {
-    display: inline-block;
-    width: fit-content;
-    display: flex;
+    display: inline-flex; /* Use inline-flex to align items horizontally */
     align-items: center;
     gap: 1rem;
-    background: var(--color-light);
+    background-color: var(--color-light); /* Use background-color for clarity */
     color: var(--color-black);
     padding: 0.6rem 2.5rem;
     border: 2px solid transparent;
     border-radius: var(--border-radius-2);
     cursor: pointer;
+
+    /* Add transitions for smoother hover effects */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
+/* Add a hover effect for better user interaction */
 .btn:hover {
-    background-color: transparent;
-    border-color: var(--color-light);
-    transform: translateY(-0.5rem);
+    background-color: var(--color-primary); /* Change to your primary color */
+    color: var(--color-white); /* Change text color for contrast */
+    border-color: var(--color-primary); /* Change border color */
 }
+
 
 .btn.white {
     background: var(--color-white);
@@ -205,7 +216,7 @@ img {
 }
 
 .btn.primary:hover {
-    background: transparent;
+    background: blueviolet;
     border-color: var(--color-primary);
     color: var(--color-primary);
 }
@@ -228,7 +239,7 @@ img {
     }
 
     section {
-        padding: 8rem 0;
+        padding: 4rem 0;
     }
 
     section > p {

@@ -4,12 +4,13 @@ import Header from "./sections/header/Header";
 import About from "./sections/about/About";
 import Services from "./sections/services/Services";
 import Portfolio from "./sections/portfolio/Portfolio";
-import FAQs from "./sections/faqs/FAQs";
+import Achievements from "./sections/Achievements/Achievemain";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
 import FloatingNav from "./sections/floating-nav/FloatingNav";
 
 import { useRef, useState, useEffect } from "react";
+
 
 const App = () => {
   // const { themeState } = useThemeContext();
@@ -59,7 +60,7 @@ const App = () => {
       <Services />
       <Portfolio />
       {/* <Testimonials /> */}
-      <FAQs  className="w3-container w3-center w3-animate-opacity"/>
+      <Achievements  className="w3-container w3-center w3-animate-opacity"/>
       <Contact />
       <Footer />
 

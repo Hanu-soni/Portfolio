@@ -1,167 +1,97 @@
+/* Default styles */
 .about__container {
-    display: grid;
-    grid-template-columns: 35% 53%;
-    gap: 12%;
+  display: grid;
+  grid-template-columns: 35% 53%;
+  gap: 12%;
 }
 
 .about__portrait {
-    height: fit-content;
-    max-height: 40rem;
-    border: 1rem solid var(--color-white);
-    transition: var(--transition);    
+  height: auto;
+  max-height: 40rem;
+  transition: var(--transition);    
 }
 
 .about__portrait:hover {
-    border-width: 0;
+  border: none; /* Remove border on hover */
 }
 
 .about__cards {
-    margin: 3rem 0 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+  margin: 3rem 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
 .card.about__card {
-    text-align: center;
+  text-align: center;
 }
 
 .about__card-icon {
-    font-size: 1.3rem;
-    color: var(--color-black);
-    border-radius: var(--border-radius-3);
-    width: fit-content;
-    margin-inline: auto;
-    padding: 0.6rem;
-    display: flex;
-    align-items: center;
-    transition: var(--transition);
+  font-size: 1.3rem;
+  color: var(--color-black);
+  border-radius: var(--border-radius-3);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  transition: var(--transition);
 }
 
 .card.about__card:hover .about__card-icon {
-    background: var(--color-primary);
-    color: var(--color-white);
+  background: var(--color-primary);
+  color: var(--color-white);
 }
 
 .card.about__card h5 {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .about__right p {
-    margin-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .about__right .btn {
-    margin-top: 2.5rem;
+  margin-top: 2.5rem;
 }
 
-
-
-/* MEDIA QUERIES (tablets) */
+/* Media query for tablets */
 @media screen and (max-width: 1024px) {
-    .about__left {
-        display: none;
-    }
+  .about__container {
+      grid-template-columns: 1fr;
+      gap: 4%;
+      text-align: center;
+  }
 
-    .about__container {
-        grid-template-columns: 1fr;
-    }
+  .about__right h2 {
+      text-align: center;
+  }
 
-    .about__right h2 {
-        text-align: center;
-    }
+  .about__cards {
+      grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-
-/* MEDIA QUERIES (phones) */
+/* Media query for phones */
 @media screen and (max-width: 600px) {
-.about__cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+  .about__container {
+      grid-template-columns: 1fr;
+      gap: 2%;
+  }
+
+  .about__right h2 {
+      text-align: center;
+  }
+
+  .about__cards {
+      grid-template-columns: 1fr;
+  }
+
+  .about__right .btn {
+      margin-top: 2rem;
+  }
 }
 
-.about__right .btn {
-    margin-top: 2rem;
-}
-
-}
-
-/* Add this CSS code to your existing 'about.css' file or create a new CSS file for card animations */
-
-/* Define a keyframe animation for fading in */
-@keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
- /* Add this CSS code to your existing 'about.css' file or create a new CSS file for card animations */
-
-/* Define a keyframe animation for fading out */
-@keyframes fadeOut {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 0;
-    }
-  }
-  
-  
-
-  /* Add this CSS code to your existing 'about.css' file or create a new CSS file for card animations */
-
-/* Define a keyframe animation for fading in */
-@keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  /* Define a keyframe animation for fading out */
-  @keyframes fadeOut {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 0;
-    }
-  }
-  
-  .about__card {
-    position: relative;
-    opacity: 0; /* Initially, set the opacity to 0 to make the cards invisible */
-    transition: opacity 0.3s ease-in-out; /* Add a smooth transition effect */
-  }
-  
-  /* Apply the fade-in animation when the card should fade in */
-  .about__card.fade-in {
-    animation: fadeIn 5s ease-in-out; /* Customize the duration and easing function as needed */
-    opacity: 0; /* Set the opacity to 1 to make the cards fully visible */
-  }
-  
-  /* Apply the fade-out animation when the card should fade out */
-  .about__card.fade-out {
-    animation: fadeOut 5s ease-in-out; /* Customize the duration and easing function as needed */
-    opacity: 1; /* Set the opacity to 0 to make the cards fully invisible */
-  }
-  .profile_pic{
-    position: relative;
-    animation: mymove 5s infinite;
-
-  }
 
 
-  @keyframes mymove {
-    from {left: 0px;}
-    to {left: 100px;}
-  }
-  
-  /* Rest of your styles for .about__card, .about__card-icon, h5, and small */
   
