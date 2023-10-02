@@ -12,8 +12,29 @@ const data = [
         image: Image1,
         title: 'Quiz_Builder',
         desc: "This is a platform were user can go and make their quiz and student can play quiz",
-        demo: 'https://github.com/Hanu-soni/Quiz-Builder.git',
-        github: 'https://github.com/Hanu-soni/Quiz-Builder.git'
+        demo: 'https://hanu-soni.github.io/Quiz_almabetter',
+        github: 'https://github.com/Hanu-soni/Quiz_almabetter',
+    },
+    {
+        id: 5,
+        category: 'Front-end',
+        image: Image5,
+        title: "Resume-Builder)",
+        desc:'Resume builder is used to build resume for user.New things -Login-Verification| Form-Validation |Download pdf |LocalStorage |Redux',
+        demo: 'https://hanu-soni.github.io/Resume_Builder3/',
+        github: 'https://github.com/Hanu-soni/Resume_Builder3.git'
+    },
+
+    
+    {
+        id: 3,
+        category: 'Backend',
+        image: Image3,
+        title: "Youtube-Subscribers",
+        desc: "THIS IS A ALMABETTER VERIFIED PROJECT | Technology used- Mongodb, ExpressJs, NodeJs | Atlas | Postman",      
+        demo: 'https://github.com/Hanu-soni/Youtube_subscribers.git',
+        github: 'https://github.com/Hanu-soni/Youtube_subscribers.git',
+        //need to work on this
     },
     {
         id: 2,
@@ -23,15 +44,7 @@ const data = [
         desc: "This Project is having 3 api request for knowing all the trips and getting bus details",
         demo: 'https://github.com/Hanu-soni/Red_Bus_Backend',
         github: 'https://gitfrontendhub.com/Hanu-soni/Red_Bus_Backend'
-    },
-    {
-        id: 3,
-        category: 'Backend',
-        image: Image3,
-        title: "Youtube-Subscribers",
-        desc: "THIS IS A ALMABETTER VERIFIED PROJECT | Technology used- Mongodb, ExpressJs, NodeJs | Atlas | Postman",      
-        demo: 'https://github.com/Hanu-soni/Youtube_subscribers.git',
-        github: 'https://github.com/Hanu-soni/Youtube_subscribers.git'
+        //need to work on this
     },
     {
         id: 4,
@@ -43,16 +56,7 @@ const data = [
         demo: 'http://egatortutorials.com',
         github: 'http://egatortutorials.com'
     },
-    {
-        id: 5,
-        category: 'Front-end',
-        image: Image5,
-        title: "Resume-Builder)",
-        desc:'Resume builder is used to build resume for user.New things -Login-Verification| Form-Validation |Download pdf |LocalStorage |Redux',
-        demo: 'https://hanu-soni.github.io/Resume_Builder3/',
-        github: 'https://github.com/Hanu-soni/Resume_Builder3.git'
-    }
-
+   
 ]
 
 

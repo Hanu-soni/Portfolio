@@ -282,3 +282,15 @@ img {
         width: var(--container-width-md);
     }
 }
+.video
+{
+    width:640px;
+    height:360;
+}
+@media ((max-width: 768px) ) {
+    .video{
+        width:320px;
+        height:180px;
+    }
+    
+}

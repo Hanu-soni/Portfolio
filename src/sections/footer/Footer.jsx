@@ -1,12 +1,20 @@
 import { FaPhone } from 'react-icons/fa'
 import {links, socials} from './data'
-import './footer.css'
+import './footer.css';
+import Image5 from '../../assets/Video1.mp4' ;
+import '../../index.css';
 
 const Footer = () => {
   return (
   
     <footer className='bg-dark text-primary py-5'>
     <div className='container'>
+        <div className="d-flex justify-content-center container-fluid">
+        <video className='video' controls>
+        <source src={Image5} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+        </div>
         <div className='text-center mb-4'>
             <h2 className='fs-2' style={{color:"blue"}}>ENDING</h2>
         </div>
