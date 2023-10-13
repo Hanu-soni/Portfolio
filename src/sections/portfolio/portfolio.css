@@ -12,7 +12,7 @@
 
 .btn.cat__btn:hover {
     /* transform: translateY(0); */
-    background-color: antiquewhite;
+    background-color: rgb(117, 56, 6);
     border-color: var(--color-primary);
 }
 

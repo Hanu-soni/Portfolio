@@ -10,6 +10,7 @@ import Footer from "./sections/footer/Footer";
 import FloatingNav from "./sections/floating-nav/FloatingNav";
 
 import { useRef, useState, useEffect } from "react";
+import Myskill from "./sections/myskills/skill";
 
 
 const App = () => {
@@ -57,6 +58,7 @@ const App = () => {
       <Navbar />
       <Header />
       <About />
+      <Myskill/>
       <Services />
       <Portfolio />
       {/* <Testimonials /> */}

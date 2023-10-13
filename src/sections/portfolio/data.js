@@ -5,7 +5,7 @@ import Image4 from '../../assets/zomato.png';
 import Image5 from '../../assets/Resume_builder.png';
 import Image6 from '../../assets/Register.jpg';
 import Image7 from '../../assets/Chat-app.png';
-
+import Image8 from '../../assets/coding.png';
 
 const data = [
     {
@@ -65,6 +65,17 @@ const data = [
         github:"https://github.com/Hanu-soni/Chat_app",
         demo:"https://github.com/Hanu-soni/Chat_app",
         image:Image7
+    },
+    {
+        id:8,
+        category:"DSA",
+        title:"Coding",
+        desc:"Solved around 100+ WAPs to improve coding skills. The Programmes solved are from basics to advance and covers topic like series, pattern, recursive-function,sorting,searching,string-manipulation and all famous questions of leetcode",
+        github:"https://github.com/Hanu-soni/DSA-coding",
+        demo:"https://github.com/Hanu-soni/DSA-coding",
+        image:Image8
+
+
     }
    
 ]

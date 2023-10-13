@@ -10,8 +10,8 @@
 
 :root {
     --primary-hue: 210; /* Updated primary hue to a bluish color */
-    --black-lightness: 30%; /* Darken the black */
-    --dark-lightness: 64%; /* Darken the dark color */
+    --black-lightness: 100%; /* Darken the black */
+    --dark-lightness: 24%; /* Darken the dark color */
     --light-lightness: 86%; /* Lighten the light color */
     --white-lightness: 96%; /* Lighten the white */
 
@@ -19,7 +19,7 @@
     --color-primary: hsl(var(--primary-hue), 89%, 41%);
     --color-white: hsl(0, 50%, var(--white-lightness));
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
-    --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+    --color-black: hsl(var(--primary-hue), 15%, var(--black-lightness));
     --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
 
     /* GENERAL CONTAINER VARIABLES */
@@ -181,7 +181,7 @@ img {
     display: inline-flex; /* Use inline-flex to align items horizontally */
     align-items: center;
     gap: 1rem;
-    background-color: var(--color-light); /* Use background-color for clarity */
+    background-color: var(--color-primary); /* Use background-color for clarity */
     color: var(--color-black);
     padding: 0.6rem 2.5rem;
     border: 2px solid transparent;
@@ -194,19 +194,21 @@ img {
 
 /* Add a hover effect for better user interaction */
 .btn:hover {
-    background-color: var(--color-primary); /* Change to your primary color */
-    color: var(--color-white); /* Change text color for contrast */
-    border-color: var(--color-primary); /* Change border color */
+    background-color: black; /* Change to your primary color */
+    color: var(--color-primary); /* Change text color for contrast */
+    border:solid 1 px black;
+    font-weight: bolder;
 }
 
 
 .btn.white {
-    background: var(--color-white);
+    background: var(--color-primary);
 }
 
 .btn.white:hover {
     background: transparent;
-    border-color: var(--color-white);
+    border-color: var(--color-primary);
+    color:#4612ed;
 }
 
 .btn.primary {
@@ -216,7 +218,7 @@ img {
 }
 
 .btn.primary:hover {
-    background: black;
+    background: transparent;
     border-color: var(--color-primary);
     color: var(--color-primary);
     font-size: large;

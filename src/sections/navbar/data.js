@@ -5,7 +5,8 @@ const data = [
     {id: 3, link: '#services', title: 'Services'},
     {id: 4, link: '#portfolio', title: 'Portfolio'},
     {id: 5, link: '#contact', title: 'Contact'},
-    {id:6,link:'#achievements',title:'Experiences'}
+    {id:6,link:'#achievements',title:'Experiences'},
+    {id:7,link:'#skill',title:'Myskill'}
     ]
 
     export default data;
