@@ -10,10 +10,10 @@ const Footer = () => {
     <footer className='bg-dark text-primary py-5'>
     <div className='container'>
         <div className="d-flex justify-content-center container-fluid">
-        <video className='video' controls>
+        {/* <video className='video' controls>
         <source src={Image5} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
         </div>
         <div className='text-center mb-4'>
             <h2 className='fs-2' style={{color:"blue"}}>ENDING</h2>
@@ -24,8 +24,8 @@ const Footer = () => {
             </p>
         </div>
         <div className='mt-4 text-center fs-5 fw-bolder'>
-            <p> +91 9957711685 &nbsp; <FaPhone /></p>
-            <p>Email: pankajsoni93444@gmail.com</p>
+            <p> &copy;CopyRight &nbsp;</p>
+            <p>All Rights Reserved</p>
         </div>
     </div>
 </footer>

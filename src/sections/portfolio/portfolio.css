@@ -11,7 +11,9 @@
 }
 
 .btn.cat__btn:hover {
-    transform: translateY(0);
+    /* transform: translateY(0); */
+    background-color: antiquewhite;
+    border-color: var(--color-primary);
 }
 
 

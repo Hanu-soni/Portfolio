@@ -3,6 +3,8 @@ import Image2 from '../../assets/Red_Bus.jpg';
 import Image3 from '../../assets/Youtube-Subscribers.jpg';
 import Image4 from '../../assets/zomato.png';
 import Image5 from '../../assets/Resume_builder.png';
+import Image6 from '../../assets/Register.jpg';
+import Image7 from '../../assets/Chat-app.png';
 
 
 const data = [
@@ -47,15 +49,23 @@ const data = [
         //need to work on this
     },
     {
-        id: 4,
-        category: 'Full-Stack',
-        image: Image4,
-        title: "Zomato",
-        desc: "This is an application where user can login or signup and order food from their favourite restaurent. Technology-React|Express|Mongo|Node",
-        //need to update ZOMATO
-        demo: 'http://egatortutorials.com',
-        github: 'http://egatortutorials.com'
+        id:6,
+        category:'Front-end',
+        title:"Vaniella Registration",
+        desc:"This is a simple form where user can enter their details and get registered successfully. HTML,CSS and JS is used. No Bootstrap . Form-Validation is taken care",
+        github:'https://github.com/Hanu-soni/Vaniella_Form',
+        demo:'https://hanu-soni.github.io/Vaniella_Form/register',
+        image:Image6,
     },
+    {
+        id:7,
+        category:"Full-Stack",
+        title:"Chat-app",
+        desc:"This is a simple chat application where I created a register and login account .Once Logged In, User can chat with all list members and seperate chat-box is created for each",
+        github:"https://github.com/Hanu-soni/Chat_app",
+        demo:"https://github.com/Hanu-soni/Chat_app",
+        image:Image7
+    }
    
 ]
 

@@ -17,7 +17,7 @@
 
     /* Calculate new colors based on updated variables */
     --color-primary: hsl(var(--primary-hue), 89%, 41%);
-    --color-white: hsl(0, 5%, var(--white-lightness));
+    --color-white: hsl(0, 50%, var(--white-lightness));
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
     --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
     --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
@@ -216,9 +216,11 @@ img {
 }
 
 .btn.primary:hover {
-    background: blueviolet;
+    background: black;
     border-color: var(--color-primary);
     color: var(--color-primary);
+    font-size: large;
+    font-weight: bolder;
 }
 
 .btn.sm {
