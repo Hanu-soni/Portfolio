@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1c5798a9.css",
-    "main.js": "/Portfolio/static/js/main.41797cce.js",
-    "static/media/Video1.mp4": "/Portfolio/static/media/Video1.f1b0f274acedf1695c4d.mp4",
+    "main.js": "/Portfolio/static/js/main.11689d5d.js",
     "static/media/Register.jpg": "/Portfolio/static/media/Register.26d8ba407066370cc1c4.jpg",
     "static/media/Chat-app.png": "/Portfolio/static/media/Chat-app.ae7ae63619553d56122c.png",
     "static/media/Certificate-4.jpeg": "/Portfolio/static/media/Certificate-4.25bca2a8dc1b98b666d0.jpeg",
@@ -17,15 +16,16 @@
     "static/media/vaniella.png": "/Portfolio/static/media/vaniella.3612122015dc83f2fa0d.png",
     "static/media/DataS-Exp.png": "/Portfolio/static/media/DataS-Exp.7b9d0dc683a14d5be15c.png",
     "static/media/Certificate-5.png": "/Portfolio/static/media/Certificate-5.5c0beaab11b913cad656.png",
+    "static/media/Block-chain.png": "/Portfolio/static/media/Block-chain.0e597d37a6886d355e4a.png",
     "static/media/Certificate-6.png": "/Portfolio/static/media/Certificate-6.9cb9fa0880a585bff8ef.png",
     "static/media/Java.jpg": "/Portfolio/static/media/Java.6ffda913044a427cd5a7.jpg",
     "static/media/Youtube-Subscribers.jpg": "/Portfolio/static/media/Youtube-Subscribers.8178c89dc5ad7c2d0ce3.jpg",
     "index.html": "/Portfolio/index.html",
     "main.1c5798a9.css.map": "/Portfolio/static/css/main.1c5798a9.css.map",
-    "main.41797cce.js.map": "/Portfolio/static/js/main.41797cce.js.map"
+    "main.11689d5d.js.map": "/Portfolio/static/js/main.11689d5d.js.map"
   },
   "entrypoints": [
     "static/css/main.1c5798a9.css",
-    "static/js/main.41797cce.js"
+    "static/js/main.11689d5d.js"
   ]
 }
