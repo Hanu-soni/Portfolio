@@ -1,32 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6d17363a.css",
-    "main.js": "/Portfolio/static/js/main.f73a5b3a.js",
+    "main.css": "/Portfolio/static/css/main.15ae764f.css",
+    "main.js": "/Portfolio/static/js/main.7463052a.js",
     "static/media/Register.jpg": "/Portfolio/static/media/Register.26d8ba407066370cc1c4.jpg",
     "static/media/Chat-app.png": "/Portfolio/static/media/Chat-app.ae7ae63619553d56122c.png",
     "static/media/Certificate-4.jpeg": "/Portfolio/static/media/Certificate-4.25bca2a8dc1b98b666d0.jpeg",
     "static/media/Certificate-3.jpeg": "/Portfolio/static/media/Certificate-3.fd24200e6243b853299d.jpeg",
-    "static/media/bcrypt.jpg": "/Portfolio/static/media/bcrypt.82d62960bfb682d921d7.jpg",
     "static/media/profileimg.jpeg": "/Portfolio/static/media/profileimg.ef8a52b0fff2e24814b7.jpeg",
     "static/media/Certificate-2.jpeg": "/Portfolio/static/media/Certificate-2.aff996f4433bc4cd3256.jpeg",
     "static/media/Business-Exp.jpg": "/Portfolio/static/media/Business-Exp.d5f465e592ca4c7fb7e2.jpg",
     "static/media/Resume-1.pdf": "/Portfolio/static/media/Resume-1.b27279d94e9b698cef6e.pdf",
     "static/media/Certificate-1.png": "/Portfolio/static/media/Certificate-1.b89a9398cb55d6c29076.png",
     "static/media/Headerimg.jpeg": "/Portfolio/static/media/Headerimg.3922717f2b08c90eb299.jpeg",
-    "static/media/vaniella.png": "/Portfolio/static/media/vaniella.3612122015dc83f2fa0d.png",
     "static/media/Background.jpg": "/Portfolio/static/media/Background.33f5c43c84fd8f9c8414.jpg",
     "static/media/DataS-Exp.png": "/Portfolio/static/media/DataS-Exp.7b9d0dc683a14d5be15c.png",
     "static/media/Certificate-5.png": "/Portfolio/static/media/Certificate-5.5c0beaab11b913cad656.png",
     "static/media/Block-chain.png": "/Portfolio/static/media/Block-chain.0e597d37a6886d355e4a.png",
     "static/media/Certificate-6.png": "/Portfolio/static/media/Certificate-6.9cb9fa0880a585bff8ef.png",
-    "static/media/Java.jpg": "/Portfolio/static/media/Java.6ffda913044a427cd5a7.jpg",
     "static/media/Youtube-Subscribers.jpg": "/Portfolio/static/media/Youtube-Subscribers.8178c89dc5ad7c2d0ce3.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.6d17363a.css.map": "/Portfolio/static/css/main.6d17363a.css.map",
-    "main.f73a5b3a.js.map": "/Portfolio/static/js/main.f73a5b3a.js.map"
+    "main.15ae764f.css.map": "/Portfolio/static/css/main.15ae764f.css.map",
+    "main.7463052a.js.map": "/Portfolio/static/js/main.7463052a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d17363a.css",
-    "static/js/main.f73a5b3a.js"
+    "static/css/main.15ae764f.css",
+    "static/js/main.7463052a.js"
   ]
 }
