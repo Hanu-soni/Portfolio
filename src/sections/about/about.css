@@ -1,8 +1,14 @@
 /* Default styles */
+section{
+  background-image:url('../../assets/Background.jpg');
+}
+
+
 .about__container {
   display: grid;
   grid-template-columns: 35% 53%;
   gap: 12%;
+ 
 }
 
 .about__portrait {

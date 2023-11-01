@@ -59,7 +59,8 @@
 }
 
 .portfolio__project:hover .btn.sm {
-    border-color: var(--color-white);
+    border-color: var(--color-primary);
+    
 }
 
 .portfolio__project:hover .btn.sm.primary {

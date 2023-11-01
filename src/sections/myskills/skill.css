@@ -1,9 +1,10 @@
-/* Common styles for all screen sizes */
+
 .contact__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+   
   }
   
   .contact__container .flip-container {
@@ -54,7 +55,9 @@
   /* Small screens (max-width: 550px) */
   @media (max-width: 550px) {
     .contact__container {
+      display: flex;
       flex-direction: column;
+      justify-content: center;
       gap: 0.6rem;
       padding: 0.7rem 0.8rem;
     }
@@ -62,6 +65,18 @@
     .contact__container .flip-container {
       width: 100%;
       font-size: 1.5rem;
+    }
+    .back .flip-container .img{
+      width:100px;
+      height:100px;
+    }
+    .img{
+      width:100px;
+      height:100px;
+    }
+    .flip-container {
+      width:100px;
+      height:100px;
     }
   }
   
@@ -76,6 +91,14 @@
   @media screen and (max-width: 600px) {
     .contact__container .flip-container {
       width: calc(30% - 2.5rem); /* Adjust width for small screens */
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .contact__container .flip-container {
+      width: 50px;
+      height: 50px; /* Adjust width for small screens */
     }
   }
  /* Common styles for all screen sizes */
@@ -122,6 +145,15 @@
     transform: rotateY(0deg); /* Initially, the back side is visible */
     opacity: 0; /* Hide the back side by default */
   }
+  @media screen and (max-width:550) {
+    .contact_container .img {
+      height:100px;
+      width: 100px;
+      align-self: center;
+    }
+    
+    
+  }
   
   .contact__container .flip-container:hover img {
     opacity: 0; /* Hide the front side on hover */
@@ -131,6 +163,32 @@
     opacity: 1; /* Show the back side on hover */
   }
   
+
+
+
+  @media (max-width: 550px) {
+    .contact__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.7rem 0.8rem;
+      background: linear-gradient(rgba(224, 153, 190, 0.5), rgba(220,14,120,0.5)),
+      linear-gradient(white, white); 
+      
+    }
+  
+    .contact__container .flip-container {
+      width: calc(80% - 1rem); /* Adjust width for small screens */
+      font-size: 1.5rem;
+    }
+    .contact__container .flip-container img,
+  .contact__container .flip-container .back {
+    width: 100%;
+    height: 100%;
+  }
+}
   /* Responsive adjustments */
   /* ... (your existing responsive CSS) */
   

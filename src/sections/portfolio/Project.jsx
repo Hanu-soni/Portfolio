@@ -2,6 +2,7 @@ import Card from '../../components/Card'
 
 
 const Project = ({project}) => {
+  
   return (
     <Card className="portfolio__project">
       <div  className="container-fluid d-flex justify-content-center">
@@ -17,7 +18,7 @@ const Project = ({project}) => {
        
         <p>{project.desc}</p>
         <div className="portfolio__project-cta">
-            <a href={project.demo} className="btn sm" target="_blank" rel="noopener noreferrer">Demo</a>
+          {project.demo &&  <a href={project.demo} className="btn sm" target="_blank" rel="noopener noreferrer">Demo</a>}
             <a href={project.github} className="btn sm primary" target="_blank" rel="noopner noreferrer">Github</a>
         </div>
     </Card>

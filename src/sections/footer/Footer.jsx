@@ -1,37 +1,85 @@
-import { FaPhone } from 'react-icons/fa'
-import {links, socials} from './data'
+import React,{useRef} from 'react';
+import emailjs from "@emailjs/browser"
 import './footer.css';
-import Image5 from '../../assets/Video1.mp4' ;
-import '../../index.css';
+import {MdOutlineEmail} from 'react-icons/md';
+import {BsWhatsapp} from 'react-icons/bs';
+import { ToastContainer,toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
 const Footer = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    
+    emailjs.sendForm('service_uj9xt56', 'template_hu762at', form.current, 'cTpZTtx0ub08Tv-9-')
+      .then((result) => {
+        document.getElementById('text1').value="";
+    document.getElementById('text2').value="";
+    document.getElementById('text3').value="";
+          toast.success('message sent',{
+            position: "top-right",
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            });
+      }, (error) => {
+        toast.error('something went Wrong', {
+          position: "top-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: 0.1,
+          theme: "dark",
+          });
+      });
+  };
+
   return (
-  
-    <footer className='bg-dark text-primary py-5'>
-    <div className='container'>
-        <div className="d-flex justify-content-center container-fluid">
-        {/* <video className='video' controls>
-        <source src={Image5} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video> */}
-        </div>
-        <div className='text-center mb-4'>
-            <h2 className='fs-2' style={{color:"blue"}}>ENDING</h2>
-        </div>
-        <div className='text-center fs-6 fw-bolder'>
-            <p>
-                Thank you for visiting my portfolio! I'm passionate about creating unique and engaging digital experiences. Whether it's web development, design, or any other creative project, I'm always eager to take on new challenges. If you'd like to collaborate, have any questions, or simply want to say hello, please feel free to reach out. Let's connect and bring your ideas to life. Together, we can make the digital world a more vibrant and user-friendly place. Cheers to creativity and innovation!
-            </p>
-        </div>
-        <div className='mt-4 text-center fs-5 fw-bolder'>
-            <p> &copy;CopyRight &nbsp;</p>
-            <p>All Rights Reserved</p>
-        </div>
-    </div>
-</footer>
+    <section id="footer">
+      <h5 >Lets Connect and Change the World!</h5>
+      <h2>Contact Me</h2>
+      <div className='container contact__container'>
+        <div className='contact__options'>
+          <article className='contact__option'>
+            <MdOutlineEmail className="contact__option-icon"/>
+            <h4>Email</h4>
+            <h5 className="contact__h5">pankajsoni93444@gmail.com</h5>
 
+            <a href='mailto:sakshamagrawal18@gmail.com' rel="noreferrer" target='_blank'>Send a message</a>
+          </article>
+          <article className='contact__option'>
+            <BsWhatsapp className="contact__option-icon"/>
+            <h4>WhatsApp</h4>
+            
 
-     
+            <a href='https://api.whatsapp.com/send?phone+917023797883' rel="noreferrer" target='_blank'>Send a message</a>
+          </article>
+        </div>
+        <form ref={form} onSubmit={sendEmail} >
+          <input id='text1' type="text" name='user_name' placeholder='Your Full Name' required />
+          <input id='text2' type="email" name='user_email' placeholder='Your Email' required />
+ <textarea id='text3' name='message' rows='7' placeholder='Your Message' required />
+ <button type='submit' value="send" className='btn btn-primary'>Send Message</button>
+ <ToastContainer position="top-right"
+autoClose={2000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="dark"/>
+        </form>
+      </div>
+    </section>
   )
 }
 

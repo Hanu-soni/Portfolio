@@ -1,9 +1,9 @@
-import contacts from './data'
-import './contact.css'
+import contacts from './data';
+import './contact.css';
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section  id="contact">
       <h2>Get In Touch</h2>
       <p>
       Feel free to drop me a message using any of the contact links provided below!

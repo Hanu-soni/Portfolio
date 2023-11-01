@@ -3,7 +3,7 @@ header {
     height: calc(100vh - 5rem);
     display: grid;
     place-items: center;
-    background: var(--color-white);
+    background: url('../../assets/Background.jpg');
     transition: var(--transition);
 }
 
@@ -12,15 +12,32 @@ header {
     flex-direction: column;
     align-items: center;
     position: relative;
+    color: rgb(253, 252, 244);
+    font-weight: bold;
+    /* has been changes as per background; */
 }
 
 .header__profile {
-    width: 18rem;
-    height: 22rem;
-    border-radius: 1rem 1rem 1rem 1rem;
+    width: 20rem;
+    height: 24rem;
+    border-radius: 5rem 5rem 1rem 1rem;
+    border:white solid 5px;
     overflow: hidden;
-    margin-bottom: 1.5rem;
+    top: 5px;
+    
+    position: relative; /* Add position relative to enable absolute positioning within */
+
 }
+
+@keyframes slideFromBottom {
+    0% {
+        transform: translateY(100%); /* Start from being 100% below its normal position */
+    }
+    100% {
+        transform: translateY(0); /* End at its normal position */
+    }
+}
+
 
 .header__container p {
     width: 35rem;
@@ -46,7 +63,7 @@ header {
 .header__socials a {
     width: 1.8rem;
     aspect-ratio: 1/1;
-    background: var(--color-light);
+    background: rgb(230, 126, 144);
     color: var(--color-black);
     display: grid;
     place-items: center;
@@ -68,6 +85,15 @@ header {
     }
 }
 
+@media screen and (max-width: 388px) {
+    .header__profile {
+        width: 14rem;
+        height: 8rem;
+        max-width: 60%;
+        max-height: 35vh;
+        border:transparent
+    }
+}
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 600px) {
@@ -88,6 +114,8 @@ header {
 
     .header__socials {
         display: none;
+       
+       
     }
 }
 

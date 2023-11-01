@@ -11,6 +11,7 @@ import FloatingNav from "./sections/floating-nav/FloatingNav";
 
 import { useRef, useState, useEffect } from "react";
 import Myskill from "./sections/myskills/skill";
+import Certificates from "./sections/Certificates/certificates";
 
 
 const App = () => {
@@ -53,18 +54,20 @@ const App = () => {
   return (
     <main
       // className={`${themeState.primary} ${themeState.background}`}
+      
       ref={mainRef}
     >
       <Navbar />
       <Header />
       <About />
-      <Myskill/>
+     
       <Services />
       <Portfolio />
+      <Certificates/>
       {/* <Testimonials /> */}
       <Achievements  className="w3-container w3-center w3-animate-opacity"/>
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
 
       {showFloatingNav && <FloatingNav />}
     </main>

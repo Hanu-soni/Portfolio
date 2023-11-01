@@ -3,6 +3,7 @@ import businesslogo from '../../assets/Business-Exp.jpg';
 import tradelogo from '../../assets/trade-Exp.jpg';
 import Datalogo from '../../assets/DataS-Exp.png';
 import Webdev from '../../assets/Webdev-Exp.jpg';
+import WebdevAlma from '../../assets/Web-Exp-2.png';
 const data = [
   {
     id: 1,
@@ -23,7 +24,7 @@ const data = [
     Experience: "ALMABETTER TRAINEE",
     Indetail: "I created 2 front-end , 2 Back-end and 2 full Stack Projects in my 1 year training of Almabetter. I was in top  5% of priority list",
     link:"https://certificates.almabetter.com/en/verify/10471753060996",
-    logo:Webdev
+    logo:WebdevAlma
   },
   {
     id: 4,

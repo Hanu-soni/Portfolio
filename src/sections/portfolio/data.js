@@ -6,6 +6,7 @@ import Image5 from '../../assets/Resume_builder.png';
 import Image6 from '../../assets/Register.jpg';
 import Image7 from '../../assets/Chat-app.png';
 import Image8 from '../../assets/coding.png';
+import Image9 from '../../assets/graphQL.png';
 
 const data = [
     {
@@ -13,9 +14,9 @@ const data = [
         category: 'Front-end',
         image: Image1,
         title: 'Quiz_Builder',
-        desc: "This is a platform were user can go and make their quiz and student can play quiz",
-        demo: 'https://hanu-soni.github.io/Quiz_almabetter',
-        github: 'https://github.com/Hanu-soni/Quiz_almabetter',
+        desc: "This is a platform where user can go and make their quiz and student can play quiz",
+        demo: 'https://hanu-soni.github.io/QuizBuilder-2',
+        github: 'https://github.com/Hanu-soni/QuizBuilder-2',
     },
     {
         id: 5,
@@ -45,7 +46,7 @@ const data = [
         title: "Red_Bus",
         desc: "This Project is having 3 api request for knowing all the trips and getting bus details",
         demo: 'https://github.com/Hanu-soni/Red_Bus_Backend',
-        github: 'https://gitfrontendhub.com/Hanu-soni/Red_Bus_Backend'
+        github: 'https://github.com/Hanu-soni/Red_Bus_Backend'
         //need to work on this
     },
     {
@@ -72,8 +73,19 @@ const data = [
         title:"Coding",
         desc:"Solved around 100+ WAPs to improve coding skills. The Programmes solved are from basics to advance and covers topic like series, pattern, recursive-function,sorting,searching,string-manipulation and all famous questions of leetcode",
         github:"https://github.com/Hanu-soni/DSA-coding",
-        demo:"https://github.com/Hanu-soni/DSA-coding",
+        // demo:"no demo",
         image:Image8
+
+
+    },
+    {
+        id:9,
+        category:"Backend",
+        title:"Graph-SQL",
+        desc:"Created a GraphQL based Backend Project to learn the basic concept of it and used ApolloServer. Fetching data from database and avoiding Over-fetching and under-fetching ",
+        github:"https://github.com/Hanu-soni/GraphQL",
+        // demo:"no demo",
+        image:Image9
 
 
     }

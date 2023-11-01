@@ -29,8 +29,8 @@ const About = () => {
   };
 
   return (
-    <section id="about" data-aos="fade-up">
-    <div className="container about__container">
+    <section  id="about" data-aos="fade-up">
+    <div  className="container about__container">
    
         <div className="about__left">
         <img src={AboutImage} alt="AboutImage" className="img-fluid" />
