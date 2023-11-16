@@ -1,12 +1,12 @@
 import Image1 from '../../assets/Quiz_builder.png';
 import Image2 from '../../assets/Red_Bus.jpg';
 import Image3 from '../../assets/Youtube-Subscribers.jpg';
-import Image4 from '../../assets/zomato.png';
 import Image5 from '../../assets/Resume_builder.png';
 import Image6 from '../../assets/Register.jpg';
 import Image7 from '../../assets/Chat-app.png';
 import Image8 from '../../assets/coding.png';
 import Image9 from '../../assets/graphQL.png';
+import Image10 from '../../assets/E-Comm.png';
 
 const data = [
     {
@@ -88,6 +88,17 @@ const data = [
         image:Image9
 
 
+    },
+    {
+        
+        id:10,
+        category:"Backend",
+        title:"E-Commerce",
+        desc:"Created some REST apis to store register info, generate token,login,add product to cart,delete,update CART ,fetch product from database and throw it to front-end in response,Order-history,order-details of user as well ",
+        github:"https://github.com/Hanu-soni/Trevious_Ecomm",
+         demo:"https://hanu-soni-trevious-ecomm11.onrender.com/",
+        image:Image10
+        
     }
    
 ]
